@@ -1,0 +1,388 @@
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 .07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+.text-slider .maintitle,
+.text-slider .subtitle {
+  color: #ffffff
+}	.footer-widgets {
+		background-color: #252525
+	}
+
+	.site-footer {
+		background-color: #1c1c1c
+	}
+
+	.site-footer,
+	.site-footer a {
+		color: #666666
+	}
+
+	.overlay {
+		background-color: #000000
+	}
+
+	.page-wrap {
+		padding-top: 83px;
+	}
+
+	.page-wrap {
+		padding-bottom: 100px;
+	}
+  body {font-family: Arial, Helvetica, sans-serif;}
+	* {box-sizing: border-box;}
+
+	input[type=text], select, textarea {
+	  width: 100%;
+	  padding: 12px;
+	  border: 1px solid #D5F5E3;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	  margin-top: 6px;
+	  margin-bottom: 16px;
+	  resize: vertical;
+	}
+
+	input[type=submit] {
+	  background-color: #82E0AA  ;
+	  color: white;
+	  padding: 12px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+
+	input[type=submit]:hover {
+	  background-color: #45a049;
+	}
+
+	.cont {
+	  border-radius: 5px;
+	  /* background-color: #AEB6BF; */
+	  padding: 20px;
+	}
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.customer-logo').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: true,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 5
+          }
+        }]
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.customer-logo').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: true,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 5
+          }
+        }]
+      });
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.customer-logos').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 4
+          }
+        }]
+      });
+    });
+  </script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+	.site-title a,
+	.site-title a:hover {
+		color: #ffffff
+	}
+
+	.site-description {
+		color: #ffffff
+	}
+
+	.header-image {
+		background-size: cover;
+	}
+
+	.header-image {
+		height: 300px;
+	}
+
+	.site-header.float-header {
+		background-color: rgba(0, 0, 0, 0.9;
+	}
+
+#myDIV {
+width: 100%;
+padding: 50px 0;
+text-align: center;
+background-color: #ffffff !important;
+display:none;
+}
+body {
+  font-size: 18px;
+}
+
+label {
+
+  color: white;
+}
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}.page-wrap {
+  padding-bottom: 0px;
+}
+
+.page-wrap {
+  padding-top: 0px;
+}
+.text-slider .maintitle,
+.text-slider .subtitle {
+ color: #ffffff
+
+}
+.footer-widgets {
+  background-color: #252525
+}
+
+.site-footer {
+  background-color: #1c1c1c
+}
+
+.site-footer,
+.site-footer a {
+  color: #666666
+}
+
+.overlay {
+  background-color: #000000
+}
+
+.page-wrap {
+  padding-top: 83px;
+}
+
+.page-wrap {
+  padding-bottom: 100px;
+}
+.header-image {
+  background-size: cover;
+}
+
+.header-image {
+  height: 300px;
+}
+
+.site-header.float-header {
+  background-color: white;
+}
+.site-header {
+  background-color: white;
+}
+.site-title {
+  font-size: 32px;
+}
+
+.site-description {
+  font-size: 16px;
+}
+.site-title a,
+.site-title a:hover {
+  color: #ffffff
+}
+.site-description {
+  color: #ffffff
+}
+.site-description {
+  font-size: 16px;
+  margin: 1px 0 0;
+  font-size: 14px;
+}
+#mainnav ul li a {
+  font-size: 14px;
+}
+
+#mainnav .sub-menu li a {
+  background: #1c1c1c
+
+}

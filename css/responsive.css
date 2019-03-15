@@ -1,0 +1,349 @@
+@media only screen and (max-width: 1400px) {
+
+  .parallax {
+    /* The image used */
+    background-image: url("../images/Home_back3.jpg");
+
+    /* Set a specific height */
+    min-height:400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+/* #Tops{
+  height: 250px;
+} */
+ptop{
+  padding-top: 50px;
+}
+/* #Clkr{height:450px} */
+
+/* for laptop */
+@media only screen and (max-width: 1024px) {
+  .parallax {
+    /* The image used */
+    background-image: url("../images/Home_back3.jpg");
+
+    /* Set a specific height */
+    min-height:400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* #Tops{
+    height: 300px;
+  } */
+  ptop{
+    padding-top: 60px;
+  }
+  .coll_pad_1{
+    padding-right: 244px !important;
+    border: none !important;
+  }
+
+  .coll_pad_2{
+    padding-right: 258px !important;
+    border: none !important;
+  }
+
+  .coll_pad_3{
+    padding-right: 252px !important;
+    border: none !important;
+  }
+
+.how{
+  margin-top: 670px !important;
+}
+}
+/* tab */
+@media only screen and (max-width: 768px) {
+  .parallax {
+    /* The image used */
+    background-image: url("../images/Home_back3.jpg");
+
+    /* Set a specific height */
+    min-height:480px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* #Tops{
+    height: 300px;
+  } */
+  ptop{
+    padding-top: 70px;
+  }
+  .coll_pad_1{
+    padding-right: 457px !important;
+    border: none !important;
+  }
+
+  .coll_pad_2{
+    padding-right: 465px !important;
+    border: none !important;
+  }
+
+  .coll_pad_3{
+    padding-right: 470px !important;
+    border: none !important;
+  }
+
+
+  .how{
+    margin-top: 881px !important;
+  }
+.pat_p{
+  margin-left: 165px !important;
+}
+
+
+.inno{
+  margin-top: 37px !important;
+}
+
+}
+
+@media only screen and (max-width: 425px) {
+  .parallax {
+    /* The image used */
+    background-image: url("../images/Home_back3.jpg");
+
+    /* Set a specific height */
+    min-height:550px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* #Tops{
+    height: 400px;
+  } */
+  ptop{
+    padding-top: 80px;
+  }
+}
+  .wordpress{
+    font-size: 21px;}
+  .wordpress1{font-size: 38px;}
+  .wordpress2{font-size: 19px;}
+
+    .mar_grid{
+      margin-top: 27px !important;
+    }
+.cc{
+  margin-top: 45px;
+}
+
+.ad_head{
+  	background-color: rgb(87,200,157);
+    width: 100%;
+    color: white;
+    margin-top: 70px !important;
+    padding-top: 1px;
+    padding-bottom: 9px;
+}
+
+.coll_pad_1{
+  padding-right: 172px !important;
+  border: none !important;
+}
+
+.coll_pad_2{
+  padding-right: 187px !important;
+  border: none !important;
+}
+
+.coll_pad_3{
+  padding-right: 181px !important;
+  border: none !important;
+}
+
+
+.how{
+  margin-top: 1573px !important;
+}
+.pat{
+  margin-left: 15px;
+}
+.pat_1{
+  margin-top: 51px;
+  margin-left: 55px;
+}
+.pat_p{
+  margin-left: 0px !important;
+}
+
+.inno{
+  margin-top: 0px !important;
+}
+}
+
+@media only screen and (max-width: 375px) {
+  .parallax {
+    /* The image used */
+    background-image: url("../images/Home_back3.jpg");
+
+    /* Set a specific height */
+    min-height:800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* #Tops{
+    height: 600px;
+  } */
+  ptop{
+    padding-top: 90px;
+  }
+  .mar_top{
+    margin-top: 10px;
+  }
+  .pad_what{
+    padding-top: 20px;
+  }
+
+  .par{
+    font-size: 16px;
+  }
+
+  .mar_grid{
+    margin-top: 27px !important;
+  }
+  .cc{
+    margin-top: 45px;
+  }
+  .ad_head{
+    	background-color: rgb(87,200,157);
+      width: 100%;
+      color: white;
+      margin-top: 70px !important;
+      padding-top: 1px;
+      padding-bottom: 9px;
+  }
+  .coll_pad_1{
+    padding-right: 132px !important;
+    border: none !important;
+  }
+
+  .coll_pad_2{
+    padding-right: 150px !important;
+    border: none !important;
+  }
+
+  .coll_pad_3{
+    padding-right: 144px !important;
+    border: none !important;
+  }
+
+  .how{
+    margin-top: 1573px !important;
+  }
+  .pat{
+    margin-left: 15px;
+  }
+  .pat_1{
+    margin-top: 51px;
+    margin-left: 55px;
+  }
+  .pat_p{
+    margin-left: 0px !important;
+  }
+
+  .inno{
+    margin-top: 0px ! important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .parallax {
+    /* The image used */
+    background-image: url("../images/Home_back3.jpg");
+
+    /* Set a specific height */
+    min-height:750px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* #Tops{
+    height: 450px;
+  } */
+  ptop{
+    padding-top: 90px;
+  }
+  .mar_top{
+    margin-top: 10px;
+  }
+  .pad_what{
+    padding-top: 20px;
+  }
+
+  .par{
+    font-size: 16px;
+  }
+    .mar_grid{
+      margin-top: 27px !important;
+    }
+    .cc{
+      margin-top: 45px;
+    }
+    .ad_head{
+      	background-color: rgb(87,200,157);
+        width: 100%;
+        color: white;
+        margin-top: 70px !important;
+        padding-top: 1px;
+        padding-bottom: 9px;
+    }
+    .coll_pad_1{
+      padding-right: 132px !important;
+      border: none !important;
+    }
+
+    .coll_pad_2{
+      padding-right: 150px !important;
+      border: none !important;
+    }
+
+    .coll_pad_3{
+      padding-right: 144px !important;
+      border: none !important;
+    }
+
+    .how{
+      margin-top: 1573px !important;
+    }
+    .pat{
+      margin-left: 15px;
+    }
+    .pat_1{
+      margin-top: 51px;
+      margin-left: 55px;
+    }
+    .pat_p{
+      margin-left: 0px !important;
+    }
+
+
+    .inno{
+      margin-top: 0px !important;
+    }
+}
