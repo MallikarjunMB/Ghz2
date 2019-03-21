@@ -7,6 +7,9 @@ body {
 .font_clr_red{
   color:red;
 }
+.font_clr_white{
+  color:#ffffff;
+}
 .screen_bg{
   background-color: black;
 }

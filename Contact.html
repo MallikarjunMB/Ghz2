@@ -561,7 +561,7 @@ display:none;
 
 	#mainnav ul li a,
 	#mainnav ul li::before {
-		color:  #172855
+		color:  #ffffff
 	}
 
 	#mainnav .sub-menu li a {
@@ -616,6 +616,48 @@ display:none;
 		padding-bottom: 100px;
 	}
 </style>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
 
 	</head>
 
@@ -629,12 +671,12 @@ display:none;
 	<div id="page" class="hfeed site">
 		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-		<header id="masthead" class=" site-header" role="banner" style="position:fixed; background: #ffffff">
+		<header id="masthead" class=" site-header" role="banner" style="position:fixed; ">
 			<div class="">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4 col-sm-8 col-xs-12">
-							<h1 class="site-title"><a href="index.html" rel="home"> <img src="images/Ghz_logo.png" alt="Ghz_logo" width="40%" height="50%"></a></h1>
+							<h1 class="site-title"><a href="index.html" rel="home"> <img src="images/Ghz_logo-ConvertImage.png" alt="Ghz_logo" width="40%" height="50%"></a></h1>
 							<h3 class="site-description"></h3>
 						</div>
 						<div class="col-md-8 col-sm-4 col-xs-12">
@@ -647,8 +689,8 @@ display:none;
 										<li id="menu-item-570" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-570"><a href="ClockingCircuit.html">Clocking-Circuits</a></li>
 										<li id="menu-item-570" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-570"><a href="EngagementModel.html">Engagement Models</a></li>
 										<li id="menu-item-570" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-570"><a href="Patners.html">Partners </a></li>
-										<li id="menu-item-570" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-570"><a href="News.html">NEWS</a></li>
-										<li id="menu-item-563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-563"><a href="#">Contact us</a></li>
+										<li id="menu-item-570" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-570"><a href="News.html">News</a></li>
+										<li id="menu-item-563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-563"><a href="#">Contact</a></li>
 									</ul>
 								</div>
 							</nav>
@@ -666,13 +708,11 @@ display:none;
 		<div class="overlay"></div>	<img class="header-inner" src="./images/atlas-ball-shaped-business-269633.jpg" width="1920" alt="GHzCircuits">
 	</div>
 
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 1px; margin-bottom:50px;">
-		<div class="col-lg-2 col-md- col-sm col-xs-"></div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 1px; padding-bottom:50px;">
+		<div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
 		<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-
-<div id="Contact" class="container" style="text-align:center;">
-	<br><h3 style="text-align:center; color:white;"> Contact Us </h3>
-	<a style="text-align:center;font-size:25px;" href="mailto:info@ghzcircuits.com?&body=Name:%0AName%20of%20Organization:%0APhone:%0AAmount%20range(<$10k, $10-50k, $50k-100k, >$100k):" target="_top">kindly Click here to mail us</a>
+    <h4 style="text-align:center; color:white;"> Contact </h4>
+	<!-- <a style="text-align:center;font-size:25px;" href="mailto:info@ghzcircuits.com?&body=Name:%0AName%20of%20Organization:%0APhone:%0AAmount%20range(<$10k, $10-50k, $50k-100k, >$100k):" target="_top">kindly Click here to mail us</a> -->
 
 <!-- <div class="cont">
   <form name="form" onsubmit="return validateForm()">
@@ -702,6 +742,11 @@ display:none;
 
 
 
+
+
+
+
+
 		<!-- <div class="com-lg-6 col-md-6 col-sm-12 col-xs-12 nopadding">
 			<div class="com-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 			<div class="com-lg-5 col-md-5 col-sm-5 col-xs-11">
@@ -723,21 +768,58 @@ display:none;
 
 
 			<section style="background-color:white">
-				<div class="com-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding " style="padding-top:50px !important;">
-					<div class="com-lg-2 col-md-2 col-sm-1 col-xs-1 "></div>
-					<div class="com-lg-4 col-md-4 col-sm-12 col-xs-12">
-							<h3 style="color:white;">ADDRESS</h3>
-							<p class="add">1030 E. EI Camino Real<br>
-										PMB 232<br>
-										Sunnyvale,CA 94087<br>
-										Email: info@ghzcircuits.com<br>
-										Website: www.ghzcircuits.com<br>
-										Phone: +91-xxxxxxxxxx, +91-xxxxxxxxxx</p>
+				<div class="com-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding " style="text-align:center">
+					<div class="com-lg-3 col-md-3 col-sm-1 col-xs-1 "></div>
+					<div class="com-lg-3 col-md-3 col-sm-12 col-xs-12" style="padding:25px;">
+							<!-- Trigger/Open The Modal -->
+							<button id="myBtn"> ̶P̶a̶p̶e̶r̶ ̶M̶a̶i̶l̶</button>
+
+							<!-- The Modal -->
+							<div id="myModal" class="modal">
+
+							  <!-- Modal content -->
+							  <div class="modal-content">
+							    <span class="close">&times;</span>
+									<h6>C/O Mark Pizarer CPA<br>
+										 525 W Remington Dr #98<br>
+											Sunnyvale,CA 94087<br></h6>
+							  </div>
+
+							</div>
+							<script>
+							// Get the modal
+							var modal = document.getElementById('myModal');
+
+							// Get the button that opens the modal
+							var btn = document.getElementById("myBtn");
+
+							// Get the <span> element that closes the modal
+							var span = document.getElementsByClassName("close")[0];
+
+							// When the user clicks the button, open the modal
+							btn.onclick = function() {
+							  modal.style.display = "block";
+							}
+
+							// When the user clicks on <span> (x), close the modal
+							span.onclick = function() {
+							  modal.style.display = "none";
+							}
+
+							// When the user clicks anywhere outside of the modal, close it
+							window.onclick = function(event) {
+							  if (event.target == modal) {
+							    modal.style.display = "none";
+							  }
+							}
+							</script>
+
 						</div>
-						<div class="com-lg-4 col-md-4 col-sm-12 col-xs-12">
-											<img src="images/address.png" alt="adress" width="50%" height="60%" style="margin-top:30px;">
+						<div class="com-lg-3 col-md-3 col-sm-12 col-xs-12" style="margin:25px;">
+											<!-- <img src="images/address.png" alt="adress" width="50%" height="60%" style="margin-top:30px;"> -->
+											<a style="text-align:center;font-size:25px;" href="mailto:ask.me@ghzcircuits.com?&body=Name:%0AName%20of%20Organization:%0APhone:%0AAmount%20range(<$10k, $10-50k, $50k-100k, >$100k):" target="_top"><button id="myBtn"> ̶k̶i̶n̶d̶l̶y̶ ̶C̶l̶i̶c̶k̶ ̶h̶e̶r̶e̶ ̶t̶o̶ ̶m̶a̶i̶l̶ ̶u̶s̶</button></a>
 						</div>
-						<div class="com-lg-1 col-md-1 col-sm-1 col-xs-1">	</div>
+						<div class="com-lg-3 col-md-3 col-sm-1 col-xs-1">	</div>
 						</div>
 					</section>
 		<a class="go-top"><i class="fa fa-angle-up"></i></a>
