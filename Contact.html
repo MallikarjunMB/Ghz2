@@ -890,12 +890,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
 							  modal.style.display = "none";
 							}
 
-							// When the user clicks anywhere outside of the modal, close it
-							window.onclick = function(event) {
-							  if (event.target == modal) {
-							    modal.style.display = "none";
-							  }
-							}
 							</script>
 
 						</div>
@@ -936,11 +930,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 											}
 
 											// When the user clicks anywhere outside of the modal, close it
-											window.onclick = function(event1) {
-												if (event1.target == modal1) {
-													modal1.style.display = "none";
-												}
-											}
+
 											</script>
 										</div>
 										<div class="com-lg-2 col-md-2 col-sm-12 col-xs-12" style="padding:25px;text-align:center;">
@@ -981,8 +971,14 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 															// When the user clicks anywhere outside of the modal, close it
 															window.onclick = function(event2) {
+
 																if (event2.target == modal2) {
 																	modal2.style.display = "none";
+																} else if (event2.target == modal1) {
+																	modal1.style.display = "none";
+																}
+																else if (event2.target == modal) {
+																	modal.style.display = "none";
 																}
 															}
 															</script>
